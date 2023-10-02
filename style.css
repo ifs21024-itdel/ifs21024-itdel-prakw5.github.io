@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  color: #eee;
+  background-image: linear-gradient(rgba(8, 9, 17, 0.8), rgba(8, 9, 17, 0.8)),
+    url(./assets/img/hero-bg.jpeg);
+  /* background-color: #60b347; */
+  background-size: 1440px 750px;
+}
+
+.container {
+  width: 100vh;
+  height: 95vh;
+}
+.h1-container {
+  text-align: center;
+  font-size: 64px;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+}
+
+.choose {
+  text-align: center;
+  font-size: 32px;
+  position: absolute;
+  padding-left: 7%;
+  top: 50%;
+  left: 34%;
+}
+
+.game-container {
+  list-style: none;
+  position: absolute;
+  top: 65%;
+  left: 21%;
+}
+
+.GMN-cont {
+  color: #eee;
+  text-decoration: none;
+  border: #eee solid 1px;
+  border-radius: 9px;
+  margin: 50px;
+  padding: 8px 30px;
+}
+
+.GMN-cont:hover {
+  color: #000;
+  background-color: #279EFF;
+}
+
+.Modal {
+  color: #eee;
+  text-decoration: none;
+  border: #eee solid 1px;
+  border-radius: 9px;
+  margin: 50px;
+  padding: 8px 30px;
+}
+
+.Modal:hover {
+  color: #000;
+  background-color: #279EFF;
+}
+
+.RF-cont {
+  color: #eee;
+  text-decoration: none;
+  border: #eee solid 1px;
+  border-radius: 9px;
+  margin: 50px;
+  padding: 8px 30px;
+}
+
+.RF-cont:hover {
+  color: #000;
+  background-color: #279EFF;
+}
+
+.copyright {
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  font-size: 12px;
+  padding: 15px;
+}
